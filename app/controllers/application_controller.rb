@@ -23,7 +23,7 @@ class ApplicationController < ActionController::Base
  
   def authenticate
     rails_root = ::Rails.root.to_s
-    properties = load_properties("#{rails_root}/config/db.properties")
+    properties = load_properties("#{rails_root}/config/app.properties")
     authenticate_or_request_with_http_basic do |user_name, password|
       user_name == properties["user_name"] && password == properties["password"]
     end
