@@ -1,0 +1,4 @@
+# Application Access - copy this and store as app.yml
+edit_access:
+  user_name: <enter user name here>
+  password: <enter password here>
