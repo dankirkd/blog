@@ -1,4 +1,5 @@
 .bundle
+push-to-heroku.sh
 config/db.properties
 db/*.sqlite3
 log/*.log
