@@ -1,4 +1,5 @@
 .bundle
+config/db.properties
 db/*.sqlite3
 log/*.log
 tmp/**/*

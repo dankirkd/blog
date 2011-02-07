@@ -1,0 +1,4 @@
+# SQLite version 3.x
+# Database access - copy this and store as db.properties
+user_name=<enter user name here>
+password=<enter password here>
